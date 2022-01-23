@@ -41,10 +41,10 @@ jobs:
 #          git config pull.rebase false
 #          git pull origin master --allow-unrelated-histories
 
-      - name: 推送 语雀拉取缓存及文章 #推送修改后的yuque json文件
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+#      - name: 推送 语雀拉取缓存及文章 #推送修改后的yuque json文件
+#        uses: ad-m/github-push-action@master
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 缓存 Hexo
         uses: actions/cache@v1

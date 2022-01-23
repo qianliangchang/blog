@@ -39,7 +39,7 @@ jobs:
           git add .
           git commit -m "Refresh yuque json" -a
           git config pull.rebase false
-          git pull origin master
+          git pull origin master --allow-unrelated-histories
 
       - name: 推送 语雀拉取缓存及文章 #推送修改后的yuque json
         uses: ad-m/github-push-action@master

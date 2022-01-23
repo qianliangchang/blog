@@ -101,10 +101,10 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-## hexo_key
+## token for hexo：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
 deploy:
   type: git
-  repo: https://qianliangchang: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@github.com/qianliangchang/blog.git
+  repo: https://github.com/qianliangchang/blog.git
   branch: blog
 
 # 站内本地搜索

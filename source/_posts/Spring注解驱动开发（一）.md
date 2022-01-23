@@ -1,5 +1,6 @@
 # 0 简介
 
+>
 > 当我们还在使用 Spring、[SpringMVC](https://so.csdn.net/so/search?q=SpringMVC&spm=1001.2101.3001.7020)、Mybatis 三大框架来整合开发的时候，我们会写大量的 xml 文件来进行配置；然而在 Springboot 和 SpringCloud 兴起之后，学习 Spring 的注解驱动及其原理那将会是非常有必要的了；因为在 Springboot 和 SpringCloud 里面会使用到大量的注解来进行配置；当我们熟练掌握了 Spring 的注解驱动，那当我们在学习 Springboot 和 SpringCloud 框架的时候，那将会更加的轻松自如；让我们一起来开启 Spring 注解驱动开发的学习之旅吧！
 
 # 1 组件注册 -`@Configuration`&`@Bean`给容器中注册组件

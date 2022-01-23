@@ -101,7 +101,7 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-## token for hexo：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
+## token for hexo：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
 deploy:
   type: git
   repo: https://github.com/qianliangchang/blog.git

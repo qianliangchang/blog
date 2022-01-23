@@ -64,6 +64,4 @@ jobs:
 
       - name: 部署
         run: |
-          git config --global user.name "qianliangchang"
-          git config --global user.email "qianliangzhang@outlook.com"
           hexo deploy

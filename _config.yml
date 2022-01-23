@@ -103,7 +103,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://qianliangchang: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@github.com/qianliangchang/blog.git
+  repo: https://qianliangchang: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@github.com/qianliangchang/blog.git
   branch: master
 
 # 站内本地搜索

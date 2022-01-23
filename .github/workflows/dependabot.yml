@@ -38,6 +38,7 @@ jobs:
           git config --global user.name "qianliangchang"
           git add .
           git commit -m "Refresh yuque json" -a
+          git config pull.rebase false
           git pull origin master
 
       - name: 推送 语雀拉取缓存及文章 #推送修改后的yuque json

@@ -105,7 +105,7 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/qianliangchang/blog.git
-  branch: blog
+  branch: master
 
 # 站内本地搜索
 search:
